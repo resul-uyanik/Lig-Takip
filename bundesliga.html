@@ -1,0 +1,407 @@
+<html>
+<head>
+    <title>BUNDESLIGA</title>
+    <style>
+
+        @font-face {
+    font-family: 'bundesligafont';
+    src: url('fonts/bundesliga.ttf') format('truetype');}
+        body {
+            background-image: url('resim/bg3.png');
+            background-size: cover; 
+            background-repeat: no-repeat;
+            font-family: 'bundesligafont', sans-serif;
+        }
+        a{
+            text-decoration: none;
+            color:black;
+        }
+        .menu {
+            border-radius: 15px;
+            background-color: #f0f0f0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+            }
+            .menu > li {
+    position: relative;
+}
+.menu > li > a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+.menu > li > a:hover {
+    background-color: #575757;
+}
+.submenu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff; /* Beyaz arka plan */
+    display: none;
+    min-width: 150px;
+    border-radius: 5px; /* Köşe yuvarlama */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gölgeleme efekti */
+}
+
+.submenu li a {
+    color: #333; /* Metin rengi */
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.submenu li a:hover {
+    background-color: #f0f0f0; /* Hover rengi */
+}
+.menu > li:hover .submenu {
+    display: block;
+}
+td{
+    font-size: 20px;  /* Yazı boyutunu 16px olarak belirler */
+    font-weight: normal;  /* Normal (kalın olmayan) yazı */
+    color: #333;  /* Yazı rengini koyu gri yapar */
+    padding: 8px;  /* Hücre içindeki boşluğu artırır */
+    font-family: 'bundesligafont', sans-serif;  /* Yazı tipi ailesini Arial olarak belirler */
+}
+th{
+    font-size: 20px;
+    border-radius: 30px,30px,0,0;
+}
+
+    </style>
+    <link rel="icon" icon” href="resim/bundesliga.png"/>
+<body style="background-color: #f9f9f9;  color: #333;">
+    <nav>
+        <ul class="menu">
+            <li><a href="anasayfa.html">Ana Sayfa</a></li>
+            <li>
+                <a>Ligler</a>
+                <ul class="submenu">
+                    <li><a href="super_lig.html">Süper Lig</a></li>
+                    <li><a href="serie_a.html">Serie A</a></li>
+                    <li><a href="premier_lig.html">Premier Lig</a></li>
+                    <li><a href="bundesliga.html">Bundesliga</a></li>
+                </ul>
+            </li>
+            
+        </ul>
+    </nav>
+    <br>
+    
+    <table align="center" border="0">
+       <tr>
+    <!-- değişti -->    <th style="border-radius: 30px 30px 0 0;"  bgcolor="#D10214" colspan="11" alt=""width="1000" height="30"><p style="color:white; font-size: 40px;"> BUNDESLIGA (2024-2025)</p></th>
+       </tr>
+
+       <tr bgcolor="white">
+        <td></td>
+        <td align="center" colspan="2">TAKIM</td>
+        <td align="center">OM</td>
+        <td align="center">G</td>
+        <td align="center">B</td>
+        <td align="center">M</td>
+        <td align="center">AG</td>
+        <td align="center">YG</td>
+        <td align="center">AV</td>
+        <th align="center">P</th>
+       </tr>
+       
+       <tr bgcolor="#A9A9A9">
+        <td>1</td>
+        <td><img src="resim/münih.png" alt=""width="30" height="30"></td>
+        <td ><a href="https://fcbayern.com/en">Bayern München</a></td>
+        <td align="center">7</td>
+        <td align="center">5</td>
+        <td align="center">2</td>
+        <td align="center">0</td>
+        <td align="center">24</td>
+        <td align="center">7</td>
+        <td align="center">17</td>
+        <th align="center">17</th>
+       </tr>
+
+       <tr bgcolor="grey">
+        <td>2</td>
+        <td><img src="resim/rb.png" alt=""width="30" height="30"></td>
+        <td><a href="https://rbleipzig.com/en">RB Leipzig</a></td>
+        <td align="center">7</td>
+        <td align="center">5</td>
+        <td align="center">2</td>
+        <td align="center">0</td>
+        <td align="center">11</td>
+        <td align="center">2</td>
+        <td align="center">9</td>
+        <th align="center">17</th>
+       </tr>
+
+       <tr bgcolor="#A9A9A9" >
+        <td>3</td>
+        <td><img src="resim/freiburg.png" alt=""width="30" height="30"></td>
+        <td  ><a href="https://www.scfreiburg.com/en">Freiburg</a></td>
+        <td align="center">7</td>
+        <td align="center">5</td>
+        <td align="center">0</td>
+        <td align="center">2</td>
+        <td align="center">12</td>
+        <td align="center">8</td>
+        <td align="center">4</td>
+        <th align="center">15</th>
+       </tr>
+       
+       <tr bgcolor="grey">
+        <td>4</td>
+        <td><img src="resim/leverkusen.png" alt=""width="30" height="30"></td>
+        <td  ><a href="https://www.bayer04.de/de-de">Bayer 04 Leverkusen</a></td>
+        <td align="center">7</td>
+        <td align="center">4</td>
+        <td align="center">2</td>
+        <td align="center">1</td>
+        <td align="center">18</td>
+        <td align="center">13</td>
+        <td align="center">5</td>
+        <th align="center">14</th>
+       </tr>
+
+       <tr bgcolor="#A9A9A9">
+        <td>5</td>
+        <td><img src="resim/uberlin.png" alt=""width="30" height="30"></td>
+        <td  ><a href="https://www.fc-union-berlin.de/en/">Union Berlin</a></td>
+        <td align="center">7</td>
+        <td align="center">4</td>
+        <td align="center">2</td>
+        <td align="center">1</td>
+        <td align="center">8</td>
+        <td align="center">4</td>
+        <td align="center">4</td>
+        <th align="center">14</th>
+       </tr>
+
+       <tr bgcolor="grey">
+        <td>6</td>
+        <td><img src="resim/frankfurt.png" alt=""width="30" height="30"></td>
+        <td  ><a href="https://www.eintracht.de">Eintracht Frankfurt</a></td>
+        <td align="center">7</td>
+        <td align="center">4</td>
+        <td align="center">1</td>
+        <td align="center">2</td>
+        <td align="center">15</td>
+        <td align="center">11</td>
+        <td align="center">4</td>
+        <th align="center">13</th>
+       </tr>
+
+       <tr bgcolor="#A9A9A9">
+        <td>7</td>
+        <td><img src="resim/dortmund.png" alt=""width="30" height="30"></td>
+        <td  ><a href="https://www.bvb.de">Borussia Dortmund</a></td>
+        <td align="center">7</td>
+        <td align="center">4</td>
+        <td align="center">1</td>
+        <td align="center">2</td>
+        <td align="center">14</td>
+        <td align="center">12</td>
+        <td align="center">2</td>
+        <th align="center">13</th>
+       </tr>
+       
+       <tr bgcolor="grey">
+        <td>8</td>
+        <td><img src="resim/bremen.png" alt=""width="30" height="30"></td>
+        <td  ><a href="https://www.werder.de/en">Werder Bremen</a></td>
+        <td align="center">7</td>
+        <td align="center">3</td>
+        <td align="center">2</td>
+        <td align="center">2</td>
+        <td align="center">12</td>
+        <td align="center">14</td>
+        <td align="center">-2</td>
+        <th align="center">11</th>
+       </tr>
+       
+       <tr bgcolor="#A9A9A9">
+        <td>9</td>
+        <td><img src="resim/heidenheim.png" alt=""width="30" height="30"></td>
+        <td  ><a href="https://www.fc-heidenheim.de">Heidenheim</a></td>
+        <td align="center">7</td>
+        <td align="center">3</td>
+        <td align="center">0</td>
+        <td align="center">4</td>
+        <td align="center">12</td>
+        <td align="center">11</td>
+        <td align="center">1</td>
+        <th align="center">9</th>
+       </tr>
+       
+       <tr bgcolor="grey">
+        <td>10</td>
+        <td><img src="resim/stuttgart.png" alt=""width="30" height="30"></td>
+        <td  ><a href="https://www.vfb.de/en/">Stuttgart</a></td>
+        <td align="center">7</td>
+        <td align="center">2</td>
+        <td align="center">3</td>
+        <td align="center">2</td>
+        <td align="center">15</td>
+        <td align="center">15</td>
+        <td align="center">0</td>
+        <th align="center">9</th>
+       </tr>
+       
+       <tr bgcolor="#A9A9A9">
+        <td>11</td>
+        <td><img src="resim/borussia.png" alt=""width="30" height="30"></td>
+        <td  ><a href="https://www.borussia.de">Borussia Mönchengladbach</a></td>
+        <td align="center">7</td>
+        <td align="center">3</td>
+        <td align="center">0</td>
+        <td align="center">4</td>
+        <td align="center">10</td>
+        <td align="center">12</td>
+        <td align="center">-2</td>
+        <th align="center">9</th>
+       </tr>
+
+       <tr bgcolor="grey">
+        <td>12</td>
+        <td><img src="resim/mainz.png" alt=""width="30" height="30"></td>
+        <td  ><a href="https://www.mainz05.de">Mainz 05</a></td>
+        <td align="center">7</td>
+        <td align="center">2</td>
+        <td align="center">2</td>
+        <td align="center">3</td>
+        <td align="center">11</td>
+        <td align="center">12</td>
+        <td align="center">-1</td>
+        <th align="center">8</th>
+       </tr>
+       
+       <tr bgcolor="#A9A9A9">
+        <td>13</td>
+        <td><img src="resim/wolf.png" alt=""width="30" height="30"></td>
+        <td  ><a href="https://www.vfl-wolfsburg.de/en/home">Wolfsburg</a></td>
+        <td align="center">7</td>
+        <td align="center">2</td>
+        <td align="center">1</td>
+        <td align="center">4</td>
+        <td align="center">15</td>
+        <td align="center">16</td>
+        <td align="center">-1</td>
+        <th align="center">7</th>
+       </tr>
+       
+       <tr bgcolor="grey">
+        <td>14</td>
+        <td><img src="resim/hoffenheim.png" alt=""width="30" height="30"></td>
+        <td  ><a href="https://www.tsg-hoffenheim.de/en">Hoffenheim</a></td>
+        <td align="center">7</td>
+        <td align="center">2</td>
+        <td align="center">1</td>
+        <td align="center">4</td>
+        <td align="center">13</td>
+        <td align="center">17</td>
+        <td align="center">-4</td>
+        <th align="center">7</th>
+       </tr>
+       
+       <tr bgcolor="#A9A9A9">
+        <td>15</td>
+        <td><img src="resim/augsburg.png" alt=""width="30" height="30"></td>
+        <td  ><a href="https://www.fcaugsburg.de/en/">Augsburg</a></td>
+        <td align="center">7</td>
+        <td align="center">2</td>
+        <td align="center">1</td>
+        <td align="center">4</td>
+        <td align="center">10</td>
+        <td align="center">18</td>
+        <td align="center">-8</td>
+        <th align="center">7</th>
+       </tr>
+
+       <tr bgcolor="grey">
+        <td>16</td>
+        <td><img src="resim/stp.png" alt=""width="30" height="30"> </td>
+        <td  ><a href="https://www.fcstpauli.com/en">St.Pauli</a></td>
+        <td align="center">7</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">5</td>
+        <td align="center">5</td>
+        <td align="center">11</td>
+        <td align="center">-6</td>
+        <th align="center">4</th>
+       </tr>
+
+       <tr bgcolor="#A9A9A9">
+        <td>17</td>
+        <td><img src="resim/kiel.png" alt=""width="30" height="30"></td>
+        <td  ><a href="https://www.holstein-kiel.de">Holstein Kiel</a></td>
+        <td align="center">7</td>
+        <td align="center">0</td>
+        <td align="center">2</td>
+        <td align="center">5</td>
+        <td align="center">9</td>
+        <td align="center">21</td>
+        <td align="center">-12</td>
+        <th align="center">2</th>
+       </tr>
+
+       <tr bgcolor="grey">
+        <td style="border-radius: 0 0 0 30px;">18</td> <!-- değişti -->
+        <td><img src="resim/bochum.png" alt=""width="30" height="30"></td>
+        <td  ><a href="https://www.vfl-bochum.de/de">Bochum</a></td>
+        <td align="center">7</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">6</td>
+        <td align="center">7</td>
+        <td align="center">17</td>
+        <td align="center">-10</td>
+        <th style="border-radius: 0 0 30px 0;" align="center">1</th>  <!-- değişti -->
+       </tr>
+
+
+       
+
+    </table>
+
+    <br>
+    <div align="center" style="margin: top 30px;" >
+    <a href="https://www.youtube.com/bundesliga" target="_blank" rel="noopener noreferrer">
+        <img src="resim/ytb.png" height="60" width="90" >
+        <br>
+        <br>
+        <h style="font-size: 25px; background-color: #ffffff; padding: 5px; color: black; border-radius: 5px;">
+            BUNDESLIGA YOUTUBE KANALINA GİTMEK İÇİN TIKLA
+         </h>
+    </a>
+    </div>
+    <br>
+    <br>
+    <div align="center" style="margin: top 30px;" >
+        <a href="super_lig.html" target="_blank" rel="noopener noreferrer">
+            <img src="resim/süperlig.png" height="64" width="64" ></a>
+        <a href="serie_a.html" target="_blank" rel="noopener noreferrer">
+            <img src="resim/seriea.png" height="64" width="64" ></a>
+        <a href="premier_lig.html" target="_blank" rel="noopener noreferrer">
+            <img src="resim/premier.png" height="64" width="64" ></a>
+    </div>
+    <br>
+    <div align="center" style="margin-top:30px;" >
+        <a href="anasayfa.html"target="_blank" rel="noopener noreferrer" >
+            <img src="resim/absurt.jpg" height="60" width="90">
+            <br>
+            <br>
+            <h style="font-size: 25px; background-color: #ffffff; padding: 5px; color: black; border-radius: 5px;">
+               ANASAYFAYA GİTMEK İÇİN TIKLAYINIZ
+            </h>
+        </a> 
+        </div>
+</body>
+</head>
+</html>

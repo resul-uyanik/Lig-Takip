@@ -1,0 +1,432 @@
+<html>
+<head>
+    <title>PREMİER LİG</title>
+    <style>
+
+        a{
+            text-decoration: none;
+            color:black;
+        }
+        @font-face {
+    font-family: 'premierligfont';
+    src: url('fonts/premierlig.ttf') format('truetype');}
+        body {
+            background-image: url('resim/bg3.png');
+            background-size: cover; 
+            background-repeat: no-repeat;
+            font-family:'premierligfont',sans-serif
+        }
+        .menu {
+            border-radius: 15px;
+            background-color: #f0f0f0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+            }
+            .menu > li {
+    position: relative;
+}
+.menu > li > a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+.menu > li > a:hover {
+    background-color: #575757;
+}
+.submenu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff; /* Beyaz arka plan */
+    display: none;
+    min-width: 150px;
+    border-radius: 5px; /* Köşe yuvarlama */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gölgeleme efekti */
+}
+
+.submenu li a {
+    color: #333; /* Metin rengi */
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.submenu li a:hover {
+    background-color: #f0f0f0; /* Hover rengi */
+}
+.menu > li:hover .submenu {
+    display: block;
+}
+td{
+    font-size: 20px;
+    font-weight: normal;  /* Normal (kalın olmayan) yazı */
+    color: #333;  /* Yazı rengini koyu gri yapar */
+    padding: 8px;  /* Hücre içindeki boşluğu artırır */
+    font-family: 'premierligfont', sans-serif;  /* Yazı tipi ailesini Arial olarak belirler */
+}
+th{
+    font-size: 20px;
+    border-radius: 30px,30px,0,0;
+    
+}
+    </style>
+    <link rel="icon" icon” href="resim/premier.png">
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="anasayfa.html">Ana Sayfa</a></li>
+            <li>
+                <a>Ligler</a>
+                <ul class="submenu">
+                    <li><a href="super_lig.html">Super Lig</a></li>
+                    <li><a href="serie_a.html">Serie A</a></li>
+                    <li><a href="premier_lig.html">Premier Lig</a></li>
+                    <li><a href="bundesliga.html">Bundesliga</a></li>
+                </ul>
+            </li>
+            
+        </ul>
+    </nav>
+    <br>
+    <table align="center" border="0">
+       <tr>
+    <th style="font-family:'premierligfont',sans-serif;border-radius: 30px 30px 0 0;" bgcolor="#37003C" colspan="11" alt=""width="1000" height="30">
+        <p style="color:rgb(255, 255, 255); font-family:'premierligfont',sans-serif;font-size: 50px;">
+             PREMIER LIG (2024-2025) 
+        </p>
+    </th>
+       </tr>
+
+       <tr bgcolor="white">
+        <td></td>
+        <td align="center" colspan="2">TAKIM</td>
+        <td align="center">OM</td>
+        <td align="center">G</td>
+        <td align="center">B</td>
+        <td align="center">M</td>
+        <td align="center">AG</td>
+        <td align="center">YG</td>
+        <td align="center">AV</td>
+        <th align="center">P</th>
+       </tr>
+       
+       <tr bgcolor="#D3D3D3">
+        <td>1</td>
+        <td><img src="resim/liverpool.png" alt=""width="30" height="30" ></td>
+        <td ><a href="https://www.liverpoolfc.com">Liverpool</a></td>
+        <td align="center">8</td>
+        <td align="center">7</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">15</td>
+        <td align="center">3</td>
+        <td align="center">12</td>
+        <th align="center">21</th>
+       </tr>
+
+       <tr bgcolor="#F5F5F5">
+        <td>2</td>
+        <td><img src="resim/city.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.mancity.com">Manchester City</a></td>
+        <td align="center">8</td>
+        <td align="center">6</td>
+        <td align="center">2</td>
+        <td align="center">0</td>
+        <td align="center">19</td>
+        <td align="center">9</td>
+        <td align="center">10</td>
+        <th align="center">20</th>
+       </tr>
+
+       <tr bgcolor="#D3D3D3">
+        <td>3</td>
+        <td><img src="resim/arsenal.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.arsenal.com">Arsenal</a></td>
+        <td align="center">8</td>
+        <td align="center">5</td>
+        <td align="center">2</td>
+        <td align="center">1</td>
+        <td align="center">15</td>
+        <td align="center">8</td>
+        <td align="center">7</td>
+        <th align="center">17</th>
+       </tr>
+       
+       <tr bgcolor="#F5F5F5">
+        <td>4</td>
+        <td><img src="resim/avl.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.avfc.co.uk">Aston Villa</a></td>
+        <td align="center">8</td>
+        <td align="center">5</td>
+        <td align="center">2</td>
+        <td align="center">1</td>
+        <td align="center">15</td>
+        <td align="center">10</td>
+        <td align="center">5</td>
+        <th align="center">17</th>
+       </tr>
+
+       <tr bgcolor="#D3D3D3">
+        <td>5</td>
+        <td><img src="resim/brighton.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.brightonandhovealbion.com/pages/en/home">Brighton</a></td>
+        <td align="center">8</td>
+        <td align="center">4</td>
+        <td align="center">3</td>
+        <td align="center">1</td>
+        <td align="center">14</td>
+        <td align="center">10</td>
+        <td align="center">4</td>
+        <th align="center">15</th>
+       </tr>
+
+       <tr bgcolor="#F5F5F5">
+        <td>6</td>
+        <td><img src="resim/chelsea.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.chelseafc.com/en">Chelsea</a></td>
+        <td align="center">8</td>
+        <td align="center">4</td>
+        <td align="center">2</td>
+        <td align="center">2</td>
+        <td align="center">17</td>
+        <td align="center">10</td>
+        <td align="center">7</td>
+        <th align="center">14</th>
+       </tr>
+
+       <tr bgcolor="#D3D3D3">
+        <td>7</td>
+        <td><img src="resim/tot.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.tottenhamhotspur.com">Tottenham</a></td>
+        <td align="center">8</td>
+        <td align="center">4</td>
+        <td align="center">1</td>
+        <td align="center">3</td>
+        <td align="center">18</td>
+        <td align="center">9</td>
+        <td align="center">9</td>
+        <th align="center">13</th>
+       </tr>
+       
+       <tr bgcolor="#F5F5F5">
+        <td>8</td>
+        <td><img src="resim/not.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.nottinghamforest.co.uk">Nottingham Forest</a></td>
+        <td align="center">8</td>
+        <td align="center">3</td>
+        <td align="center">4</td>
+        <td align="center">1</td>
+        <td align="center">8</td>
+        <td align="center">6</td>
+        <td align="center">2</td>
+        <th align="center">13</th>
+       </tr>
+       
+       <tr bgcolor="#D3D3D3">
+        <td>9</td>
+        <td><img src="resim/newc.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.newcastleunited.com/en">Newcastle United</a></td>
+        <td align="center">8</td>
+        <td align="center">3</td>
+        <td align="center">3</td>
+        <td align="center">2</td>
+        <td align="center">8</td>
+        <td align="center">8</td>
+        <td align="center">0</td>
+        <th align="center">12</th>
+       </tr>
+       
+       <tr bgcolor="#F5F5F5">
+        <td>10</td>
+        <td><img src="resim/fulham.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.fulhamfc.com">Fulham</a></td>
+        <td align="center">8</td>
+        <td align="center">3</td>
+        <td align="center">2</td>
+        <td align="center">3</td>
+        <td align="center">11</td>
+        <td align="center">11</td>
+        <td align="center">0</td>
+        <th align="center">11</th>
+       </tr>
+       
+       <tr bgcolor="#D3D3D3">
+        <td>11</td>
+        <td><img src="resim/bourne.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.afcb.co.uk">AFC Bournemouth</a></td>
+        <td align="center">8</td>
+        <td align="center">3</td>
+        <td align="center">2</td>
+        <td align="center">3</td>
+        <td align="center">10</td>
+        <td align="center">10</td>
+        <td align="center">0</td>
+        <th align="center">11</th>
+       </tr>
+
+       <tr bgcolor="#F5F5F5">
+        <td>12</td>
+        <td><img src="resim/manu.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.manutd.com">Manchester United</a></td>
+        <td align="center">8</td>
+        <td align="center">3</td>
+        <td align="center">2</td>
+        <td align="center">3</td>
+        <td align="center">7</td>
+        <td align="center">9</td>
+        <td align="center">-2</td>
+        <th align="center">11</th>
+       </tr>
+       
+       <tr bgcolor="#D3D3D3">
+        <td>13</td>
+        <td><img src="resim/brent.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.brentfordfc.com/en">Brentford</a></td>
+        <td align="center">8</td>
+        <td align="center">3</td>
+        <td align="center">1</td>
+        <td align="center">4</td>
+        <td align="center">14</td>
+        <td align="center">15</td>
+        <td align="center">-1</td>
+        <th align="center">10</th>
+       </tr>
+       
+       <tr bgcolor="#F5F5F5">
+        <td>14</td>
+        <td><img src="resim/leic.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.lcfc.com/?lang=EN">Leicester City</a></td>
+        <td align="center">8</td>
+        <td align="center">2</td>
+        <td align="center">3</td>
+        <td align="center">3</td>
+        <td align="center">12</td>
+        <td align="center">14</td>
+        <td align="center">-2</td>
+        <th align="center">9</th>
+       </tr>
+       
+       <tr bgcolor="#D3D3D3">
+        <td>15</td>
+        <td><img src="resim/whu.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.whufc.com">West Ham United</a></td>
+        <td align="center">8</td>
+        <td align="center">2</td>
+        <td align="center">2</td>
+        <td align="center">4</td>
+        <td align="center">11</td>
+        <td align="center">15</td>
+        <td align="center">-4</td>
+        <th align="center">8</th>
+       </tr>
+
+       <tr bgcolor="#F5F5F5">
+        <td>16</td>
+        <td><img src="resim/everton.png" alt=""width="30" height="30"> </td>
+        <td><a href="https://www.evertonfc.com">Everton</a></td>
+        <td align="center">8</td>
+        <td align="center">2</td>
+        <td align="center">2</td>
+        <td align="center">4</td>
+        <td align="center">9</td>
+        <td align="center">15</td>
+        <td align="center">-6</td>
+        <th align="center">8</th>
+       </tr>
+
+       <tr bgcolor="#D3D3D3">
+        <td>17</td>
+        <td><img src="resim/ipswich.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.itfc.co.uk">Ipswich Town</a></td>
+        <td align="center">8</td>
+        <td align="center">0</td>
+        <td align="center">4</td>
+        <td align="center">4</td>
+        <td align="center">6</td>
+        <td align="center">16</td>
+        <td align="center">-10</td>
+        <th align="center">4</th>
+       </tr>
+
+       <tr bgcolor="#F5F5F5">
+        <td>18</td>
+        <td><img src="resim/crystalpalace.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.cpfc.co.uk">Crystal Palace</a></td>
+        <td align="center">8</td>
+        <td align="center">0</td>
+        <td align="center">3</td>
+        <td align="center">5</td>
+        <td align="center">5</td>
+        <td align="center">11</td>
+        <td align="center">-6</td>
+        <th align="center">3</th>
+       </tr>
+
+       <tr bgcolor="#D3D3D3">
+        <td>19</td>
+        <td><img src="resim/south.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.southamptonfc.com/en">Southhampton</a></td>
+        <td align="center">8</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">7</td>
+        <td align="center">6</td>
+        <td align="center">18</td>
+        <td align="center">-12</td>
+        <th align="center">1</th>
+       </tr>
+
+       <tr bgcolor="#F5F5F5">
+        <td style="border-radius: 0 0 0 30px;">20</td>
+        <td><img src="resim/wolver.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.wolves.co.uk">Wolverhampton Wanderers</a></td>
+        <td align="center">8</td>
+        <td align="center">0</td>
+        <td align="center">1</td>
+        <td align="center">7</td>
+        <td align="center">10</td>
+        <td align="center">23</td>
+        <td align="center">-13</td>
+        <th align="center" style="border-radius: 0 0 30px 0;">1</th>
+       </tr>
+    </table>
+    <br>
+    <div align="center" style="margin: top 30px;" >
+    <a href="https://www.youtube.com/@premierleague" target="_blank" rel="noopener noreferrer">
+        <img src="resim/ytb.png" height="60" width="90" >
+        <br>
+        <br>
+        <h style="font-size: 25px; font-family:premierligfont, sans-serif; background-color: #ffffff; padding: 5px; color: black; border-radius: 5px;">
+            PREMIER LIG YOUTUBE KANALINA GITMEK ICIN TIKLA
+         </h>
+    </a>
+    </div>
+    <br>
+    <div align="center" style="margin: top 30px;" >
+        <a href="super_lig.html" target="_blank" rel="noopener noreferrer">
+            <img src="resim/süperlig.png" height="64" width="64" ></a>
+        <a href="bundesliga.html" target="_blank" rel="noopener noreferrer">
+            <img src="resim/bundesliga.png" height="64" width="64" ></a>
+        <a href="serie_a.html" target="_blank" rel="noopener noreferrer">
+            <img src="resim/seriea.png" height="64" width="64" ></a>
+    </div>
+    <br>
+    <div align="center" style="margin-top:30px;" >
+        <a href="anasayfa.html"target="_blank" rel="noopener noreferrer" >
+            <img style="border-radius: 30px;" src="resim/absurt.jpg" height="60" width="90">
+            <br>
+            <br>
+            <h style="font-size: 25px; font-family:premierligfont, sans-serif; background-color: #ffffff; padding: 5px; color: black; border-radius: 5px;">
+               ANASAYFAYA GITMEK ICIN TIKLAYINIZ
+            </h>
+        </a> 
+        </div>
+</body>
+</head>
+</html>

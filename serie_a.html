@@ -1,0 +1,430 @@
+<html>
+<head>
+    <title>SERIE A</title>
+    <style>
+        @font-face {
+    font-family: 'seriea';
+    src: url('fonts/seriea.ttf') format('truetype');}
+        body {
+            background-image: url('resim/bg3.png');
+            background-size: cover; 
+            background-repeat: no-repeat;
+            font-family:'seriea',sans-serif
+        }
+        .menu {
+            border-radius: 15px;
+            background-color: #f0f0f0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+            }
+            .menu > li {
+    position: relative;
+}
+.menu > li > a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+.menu > li > a:hover {
+    background-color: #575757;
+}
+.submenu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff; /* Beyaz arka plan */
+    display: none;
+    min-width: 150px;
+    border-radius: 5px; /* Köşe yuvarlama */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gölgeleme efekti */
+}
+
+.submenu li a {
+    color: #333; /* Metin rengi */
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.submenu li a:hover {
+    background-color: #f0f0f0; /* Hover rengi */
+}
+.menu > li:hover .submenu {
+    display: block;
+}
+td{
+    font-size: 20px;
+    font-weight: normal;  /* Normal (kalın olmayan) yazı */
+    color: #333;  /* Yazı rengini koyu gri yapar */
+    padding: 8px;  /* Hücre içindeki boşluğu artırır */
+    font-family: 'seriea', sans-serif;  /* Yazı tipi ailesini Arial olarak belirler */
+}
+th{
+    font-size: 20px;
+    border-radius: 30px,30px,0,0;
+    
+}
+a{
+            text-decoration: none;
+            color:black;
+        }
+    </style>
+    <link rel="icon" icon” href="resim/seriea.png"/>
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="anasayfa.html">Ana Sayfa</a></li>
+            <li>
+                <a>Ligler</a>
+                <ul class="submenu">
+                    <li><a href="super_lig.html">Super Lig</a></li>
+                    <li><a href="serie_a.html">Serie A</a></li>
+                    <li><a href="premier_lig.html">Premier Lig</a></li>
+                    <li><a href="bundesliga.html">Bundesliga</a></li>
+                </ul>
+            </li>
+            
+        </ul>
+    </nav>
+    <br>
+    <table align="center" border="0">
+       <tr>
+        <th bgcolor="#0047AB" colspan="11" alt=""width="1000" height="30"><p style="color:white; font-size: 30px;"> <b> SERIE A(2024-2025)</b></p></th>
+       </tr>
+
+       <tr bgcolor="white">
+        <td></td>
+        <td align="center" colspan="2">TAKIM</td>
+        <td align="center">OM</td>
+        <td align="center">G</td>
+        <td align="center">B</td>
+        <td align="center">M</td>
+        <td align="center">AG</td>
+        <td align="center">YG</td>
+        <td align="center">AV</td>
+        <th align="center">P</th>
+       </tr>
+       
+       <tr bgcolor="#A9A9A9">
+        <td>1</td>
+        <td><img src="resim/napoli.png" alt=""width="30" height="30"></td>
+        <td><a href="https://sscnapoli.it">Napoli</a></td>
+        <td align="center">8</td>
+        <td align="center">6</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">15</td>
+        <td align="center">5</td>
+        <td align="center">10</td>
+        <th align="center">19</th>
+       </tr>
+
+       <tr bgcolor="grey">
+        <td>2</td>
+        <td><img src="resim/inter.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.inter.it/en">Inter</a></td>
+        <td align="center">8</td>
+        <td align="center">5</td>
+        <td align="center">2</td>
+        <td align="center">1</td>
+        <td align="center">17</td>
+        <td align="center">9</td>
+        <td align="center">8</td>
+        <th align="center">17</th>
+       </tr>
+
+       <tr bgcolor="#A9A9A9" >
+        <td>3</td>
+        <td><img src="resim/juve.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.juventus.com/en/">Juventus</a></td>
+        <td align="center">8</td>
+        <td align="center">4</td>
+        <td align="center">4</td>
+        <td align="center">0</td>
+        <td align="center">11</td>
+        <td align="center">1</td>
+        <td align="center">10</td>
+        <th align="center">16</th>
+       </tr>
+       
+       <tr bgcolor="grey">
+        <td>4</td>
+        <td><img src="resim/milan.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.acmilan.com/en">AC Milan</a></td>
+        <td align="center">8</td>
+        <td align="center">4</td>
+        <td align="center">2</td>
+        <td align="center">2</td>
+        <td align="center">16</td>
+        <td align="center">9</td>
+        <td align="center">7</td>
+        <th align="center">14</th>
+       </tr>
+
+       <tr bgcolor="#A9A9A9">
+        <td>5</td>
+        <td><img src="resim/fio.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.acffiorentina.com/en">Fiorentina</a></td>
+        <td align="center">8</td>
+        <td align="center">3</td>
+        <td align="center">4</td>
+        <td align="center">1</td>
+        <td align="center">15</td>
+        <td align="center">8</td>
+        <td align="center">7</td>
+        <th align="center">13</th>
+       </tr>
+
+       <tr bgcolor="grey">
+        <td>6</td>
+        <td><img src="resim/ata.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.atalanta.it">Atalanta</a></td>
+        <td align="center">8</td>
+        <td align="center">4</td>
+        <td align="center">1</td>
+        <td align="center">3</td>
+        <td align="center">18</td>
+        <td align="center">13</td>
+        <td align="center">5</td>
+        <th align="center">13</th>
+       </tr>
+
+       <tr bgcolor="#A9A9A9">
+        <td>7</td>
+        <td><img src="resim/lazio.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.sslazio.it/en">Lazio</a></td>
+        <td align="center">8</td>
+        <td align="center">4</td>
+        <td align="center">1</td>
+        <td align="center">3</td>
+        <td align="center">14</td>
+        <td align="center">12</td>
+        <td align="center">2</td>
+        <th align="center">13</th>
+       </tr>
+       
+       <tr bgcolor="grey">
+        <td>8</td>
+        <td><img src="resim/udi.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.udinese.it">Udinese</a></td>
+        <td align="center">8</td>
+        <td align="center">4</td>
+        <td align="center">1</td>
+        <td align="center">3</td>
+        <td align="center">10</td>
+        <td align="center">11</td>
+        <td align="center">-1</td>
+        <th align="center">13</th>
+       </tr>
+       
+       <tr bgcolor="#A9A9A9">
+        <td>9</td>
+        <td><img src="resim/torino.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.torinofc.it">Torino</a></td>
+        <td align="center">8</td>
+        <td align="center">3</td>
+        <td align="center">2</td>
+        <td align="center">3</td>
+        <td align="center">14</td>
+        <td align="center">14</td>
+        <td align="center">0</td>
+        <th align="center">11</th>
+       </tr>
+       
+       <tr bgcolor="grey">
+        <td>10</td>
+        <td><img src="resim/roma.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.asroma.com/en">Roma</a></td>
+        <td align="center">8</td>
+        <td align="center">2</td>
+        <td align="center">4</td>
+        <td align="center">2</td>
+        <td align="center">8</td>
+        <td align="center">6</td>
+        <td align="center">2</td>
+        <th align="center">10</th>
+       </tr>
+       
+       <tr bgcolor="#A9A9A9">
+        <td>11</td>
+        <td><img src="resim/empoli.png" alt=""width="30" height="30"></td>
+        <td><a href="https://empolifc.com">Empoli</a></td>
+        <td align="center">8</td>
+        <td align="center">2</td>
+        <td align="center">4</td>
+        <td align="center">2</td>
+        <td align="center">6</td>
+        <td align="center">5</td>
+        <td align="center">1</td>
+        <th align="center">10</th>
+       </tr>
+
+       <tr bgcolor="grey">
+        <td>12</td>
+        <td><img src="resim/bologna.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.bolognafc.it/en/home/">Bologna</a></td>
+        <td align="center">8</td>
+        <td align="center">1</td>
+        <td align="center">6</td>
+        <td align="center">1</td>
+        <td align="center">9</td>
+        <td align="center">11</td>
+        <td align="center">-2</td>
+        <th align="center">9</th>
+       </tr>
+       
+       <tr bgcolor="#A9A9A9">
+        <td>13</td>
+        <td><img src="resim/verona.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.hellasverona.it/en">Verona</a></td>
+        <td align="center">8</td>
+        <td align="center">3</td>
+        <td align="center">0</td>
+        <td align="center">5</td>
+        <td align="center">12</td>
+        <td align="center">15</td>
+        <td align="center">-3</td>
+        <th align="center">9</th>
+       </tr>
+       
+       <tr bgcolor="grey">
+        <td>14</td>
+        <td><img src="resim/como.png" alt=""width="30" height="30"></td>
+        <td><a href="https://comofootball.com">Como</a></td>
+        <td align="center">8</td>
+        <td align="center">2</td>
+        <td align="center">3</td>
+        <td align="center">3</td>
+        <td align="center">11</td>
+        <td align="center">15</td>
+        <td align="center">-4</td>
+        <th align="center">9</th>
+       </tr>
+       
+       <tr bgcolor="#A9A9A9">
+        <td>15</td>
+        <td><img src="resim/cagliari.png" alt=""width="30" height="30"></td>
+        <td><a href="https://cagliaricalcio.com">Cagliari</a></td>
+        <td align="center">8</td>
+        <td align="center">2</td>
+        <td align="center">3</td>
+        <td align="center">3</td>
+        <td align="center">8</td>
+        <td align="center">13</td>
+        <td align="center">-5</td>
+        <th align="center">9</th>
+       </tr>
+
+       <tr bgcolor="grey">
+        <td>16</td>
+        <td><img src="resim/monza.png" alt=""width="30" height="30"> </td>
+        <td><a href="https://www.acmonza.com">Monza</a></td>
+        <td align="center">8</td>
+        <td align="center">1</td>
+        <td align="center">4</td>
+        <td align="center">3</td>
+        <td align="center">8</td>
+        <td align="center">9</td>
+        <td align="center">-1</td>
+        <th align="center">7</th>
+       </tr>
+
+       <tr bgcolor="#A9A9A9">
+        <td>17</td>
+        <td><img src="resim/parma.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.parmacalcio1913.com/en/">Parma</a></td>
+        <td align="center">8</td>
+        <td align="center">1</td>
+        <td align="center">4</td>
+        <td align="center">3</td>
+        <td align="center">11</td>
+        <td align="center">13</td>
+        <td align="center">-2</td>
+        <th align="center">7</th>
+       </tr>
+
+       <tr bgcolor="grey">
+        <td>18</td>
+        <td><img src="resim/genoa.png" alt=""width="30" height="30"></td>
+        <td><a href="https://genoacfc.it">Genoa</a></td>
+        <td align="center">8</td>
+        <td align="center">1</td>
+        <td align="center">3</td>
+        <td align="center">4</td>
+        <td align="center">7</td>
+        <td align="center">17</td>
+        <td align="center">-10</td>
+        <th align="center">7</th>
+       </tr>
+
+       <tr bgcolor="#A9A9A9">
+        <td>19</td>
+        <td><img src="resim/lecce.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.uslecce.it">Lecce</a></td>
+        <td align="center">8</td>
+        <td align="center">1</td>
+        <td align="center">2</td>
+        <td align="center">5</td>
+        <td align="center">3</td>
+        <td align="center">18</td>
+        <td align="center">-15</td>
+        <th align="center">5</th>
+       </tr>
+
+       <tr bgcolor="grey">
+        <td>20</td>
+        <td><img src="resim/venezia.png" alt=""width="30" height="30"></td>
+        <td><a href="https://www.veneziafc.it/en">Venezia</a></td>
+        <td align="center">8</td>
+        <td align="center">1</td>
+        <td align="center">1</td>
+        <td align="center">6</td>
+        <td align="center">5</td>
+        <td align="center">14</td>
+        <td align="center">-19</td>
+        <th align="center">4</th>
+       </tr>
+
+       
+
+    </table>
+    <br>
+    <div align="center" style="margin: top 30px;" >
+    <a href="https://www.youtube.com/c/seriea" target="_blank" rel="noopener noreferrer">
+        <img src="resim/ytb.png" height="60" width="90" >
+        <br>
+        <br>
+        <h style="background-color: #ffffff; padding: 5px; color: black; border-radius: 5px; font-size: 25px;">
+            SERIE A YOUTUBE KANALINA GITMEK ICIN TIKLA
+         </h>
+    </a>
+    </div>
+    <br>
+    <div align="center" style="margin: top 30px;" >
+        <a href="super_lig.html" target="_blank" rel="noopener noreferrer">
+            <img src="resim/süperlig.png" height="64" width="64" ></a>
+        <a href="bundesliga.html" target="_blank" rel="noopener noreferrer">
+            <img src="resim/bundesliga.png" height="64" width="64" ></a>
+        <a href="premier_lig.html" target="_blank" rel="noopener noreferrer">
+            <img src="resim/premier.png" height="64" width="64" ></a>
+    </div>
+    <br>
+    <div align="center" style="margin-top:30px;" >
+        <a href="anasayfa.html"target="_blank" rel="noopener noreferrer" >
+            <img style="border-radius: 15px;" src="resim/absurt.jpg" height="60" width="90">
+            <br>
+            <br>
+            <h style="background-color: #ffffff; padding: 5px; color: black; border-radius: 5px; font-size: 25px;">
+               ANASAYFAYA GITMEK ICIN TIKLAYINIZ
+            </h>
+        </a> 
+        </div>
+</body>
+</head>
+</html>
