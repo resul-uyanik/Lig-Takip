@@ -1,0 +1,7 @@
+# Gereksiz editör dosyalarını engelle
+.vscode/
+.idea/
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
